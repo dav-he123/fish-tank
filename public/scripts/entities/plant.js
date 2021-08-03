@@ -21,6 +21,12 @@ class Plant extends Denizen {
           velocity: new Vector(xVel, yVel),
           type: this.tank.getRandomSpecies(),
         });
+        var u = new BiteFish({
+            tank: this.tank,
+            position: this.position,
+            velocity: new Vector(xVel, yVel),
+            type: this.tank.getRandomSpecies(),
+          });
       }
        
   }
