@@ -5,7 +5,7 @@ class Fish extends Denizen {
     this.imageUri = '/images/fish01.png';
     this.maxSwimSpeed = 100;
     this.makeNewVelocity();
-    this.isTasty = true;
+    this.isTasty = true; 
   }
 
   generateSwimVelocity(max, min) {
