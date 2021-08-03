@@ -6,6 +6,15 @@ $(() => {
     tank: window.fishtank,     // look, it's Dependency Injection!  Pretend you care!
     position: new Vector(0, 0)
   });
+  var plant = new Plant({
+    tank: window.fishtank,     // look, it's Dependency Injection!  Pretend you care!
+    position: new Vector(200, 0)
+  });
+
+  var plant = new Plant({
+    tank: window.fishtank,     // look, it's Dependency Injection!  Pretend you care!
+    position: new Vector(-200, 0)
+  });
 
 });
 
